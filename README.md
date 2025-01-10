@@ -1,7 +1,35 @@
-# Library-Management-System-Project
+Overview
+The Library Management System (LMS) is a software application built in Java, designed to manage and automate various operations of a library. It provides features for managing books, library members, and transactions like issuing and returning books. The system interacts with an SQL database for data storage and retrieval, ensuring seamless management of library resources.
 
-A library management system is software that is designed to manage all the functions of a library. It helps librarian to maintain the database of new books and the books that are borrowed by members along with their due dates.
+Features
+User Management: Registration, login, and profile management for members.
+Book Management: Add, update, delete, and search for books in the library.
+Issue/Return Books: Handle the process of issuing and returning books.
+Search Books: Search books by title, author, or genre.
+Overdue Books: Track overdue books and calculate late fees.
+Admin Panel: Admin users can manage the entire system, including books, members, and transactions.
+Reports: Generate reports for issued books, overdue books, and late fees.
+Requirements
+Software Requirements:
+Operating System: Windows / macOS / Linux
+Programming Language: Java 8 or later
+Database: MySQL / PostgreSQL / SQLite
+Libraries:
+JDBC (Java Database Connectivity) for database interaction
+Java Swing for graphical user interface (GUI)
+Hardware Requirements:
+A computer with at least 4GB of RAM
+A minimum of 100MB of free disk space
 
+
+
+
+Usage
+Admin Login: The admin can log in using the default credentials. Admins have full control over the system.
+Member Registration: Users can sign up by providing their personal information.
+Search for Books: Members can search for books based on title, author, or ISBN.
+Issue/Return Books: Members can issue books by selecting the available books, and admins can manage the book return process.
+Track Overdue Books: The system automatically tracks overdue books and calculates late fees.
 
 ![loading](https://github.com/sudhirkumar85/Library-Management-System-Project/assets/84500245/31d70921-d5ab-4fd7-907f-61e68e28da49)
 
